@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MasterStarBarberSh</string>
+    <string name="login_page_title">Bienvenido</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="remember_password">Recordar contraseña</string>
+    <string name="forgot_password">Olvidé contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="no_account">Si no tienes una cuenta debes</string>
+    <string name="register">Registrarte</string>
+    <string name="logo_description">Logo</string>
+
+    <string name="registrarse">Registrarse</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="aceptar_terminos">Aceptar Términos y Condiciones</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+
+
+    <string name="app_name_primera_mitad">MASTER STAR</string>
+    <string name="app_name_segunda_mitad">BARBER SHOP</string>
+    <string name="descripcion_primera_mitad">Reservaciones en línea para</string>
+    <string name="descripcion_segunda_mitad">peluquerías y barberías</string>
+    <string name="presiona_para_iniciar">Presiona para iniciar:</string>
+    <string name="buscar_peluqueria">Buscar Peluqueria</string>
+
+</resources>

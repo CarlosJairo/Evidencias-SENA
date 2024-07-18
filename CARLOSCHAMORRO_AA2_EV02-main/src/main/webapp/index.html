@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #0d1117;
+                min-height: 100vh;
+                color: #eeeeee;
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                    sans-serif;
+            }
+            h1 {
+                text-align: center;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                background-color: #161b22;
+                padding: 1.5rem;
+                width: 17rem;
+            }
+            label {
+                padding-left: .3rem;
+                margin-bottom: .3rem
+            }
+            input {
+                border-radius: 5px;
+            }
+            input[type="text"],
+            input[type="password"] {
+                margin-bottom: 1rem;
+            }
+
+            input[type="submit"] {
+                background-color: #29903b;
+                padding: 0.5rem;
+                color: #eeeeee;
+                font-family: inherit;
+                border: none;
+                cursor: pointer;
+                transition: background-color 200ms linear;
+            }
+            input[type="submit"]:hover {
+                background-color: #30a042;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Bienvenido</h1>
+            <form action="login" method="post">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+                <input type="submit" value="Iniciar Sesión" />
+            </form>
+        </section>
+    </body>
+</html>
